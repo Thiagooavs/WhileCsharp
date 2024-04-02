@@ -90,7 +90,11 @@ namespace While
                         sal = bru * por;
                         break;
 
-
+                    default:
+                        Console.WriteLine("Opção invalida");
+                        Console.ReadKey();
+                        break;
+                        
                 }
                 Console.WriteLine("Seu salário é " + sal.ToString("C"));
                 total += sal;
